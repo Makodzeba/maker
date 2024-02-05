@@ -1,0 +1,17 @@
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
+const removeDuplicates = array => Array.from(new Set(array));
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+kiwi
+
+const truncateString = (str, maxLength) => str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+
+14,64,43,48,73,82,14,85,11,0,29,84,87,98,11,11,79,37,42,11,8,64,72,15,66,47,74,42,48,88,48,72,33,81,33,22,53,51,50,24,12,83 + orange
+const randomNumber = getRandomNumber();
+grape
+
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+false + true
+const mapObject = (obj, fn) => Object.fromEntries(Object.entries(obj).map(([key, value]) => [key, fn(value)]));
+const formatDate = date => new Date(date).toLocaleDateString();
+
