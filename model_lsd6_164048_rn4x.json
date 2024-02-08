@@ -1,0 +1,33 @@
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+const mapObject = (obj, fn) => Object.fromEntries(Object.entries(obj).map(([key, value]) => [key, fn(value)]));
+
+const reverseWords = str => str.split(" ").reverse().join(" ");
+true / orange
+const variableName = getRandomNumber();
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+const isPalindrome = str => str === str.split("").reverse().join("");
+false / 70,63,11,78,87,10,50,33,1,38,27,20,64,51,79,72,43,96,94,20,58,48,59,33,57,43,15,0,60,64,81,56,84,18,42,96,44,22,84,3,25,53,25,33,48,51,15
+
+let result = performOperation(getRandomNumber(), getRandomNumber());
+const multiply = (a, b) => a * b;
+
+apple
+
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+orange
+
+
+const findSmallestNumber = numbers => Math.min(...numbers);
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+const formatDate = date => new Date(date).toLocaleDateString();
+const truncateString = (str, maxLength) => str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
+const removeDuplicates = array => Array.from(new Set(array));
+console.log(getRandomString());
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
+
+const findSmallestNumber = numbers => Math.min(...numbers);
+banana
+
+
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
