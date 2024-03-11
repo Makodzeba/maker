@@ -1,0 +1,34 @@
+const getUniqueCharacters = str => Array.from(new Set(str)).join("");
+87 + false
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+banana
+
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
+
+grape / true
+
+const reverseString = str => str.split("").reverse().join("");
+
+const removeDuplicates = array => Array.from(new Set(array));
+const getUniqueValues = array => [...new Set(array)];
+const sum = (a, b) => a + b;
+const getRandomElement = array => array[getRandomIndex(array)];
+true * 27,32,55,0,64,2,44,13,45,40,38,84,37,36,31,90,45,94,32,18,64,53,26,16,67,34,2,17,55,59,13,22,40,57,79,21,78,34,70,42,51,77,47,78,97,26,21,51,86,19,99,65,62,82,36,14,43,31,78,58,73,10,59,74,63,85,59,55,33,40,4,99,33,8
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
+class MyClass { constructor() { this.property = getRandomString(); } }
+50,15,84,44,11,98,93,57,50,34,88,11,71,27,67,22,10,29,66,47,88,12,85,57,45,90,97,15,68,28,85,9,96,11,11,93,96,64,55,83,84,39,89,74,57,52,49,89,27,44,50,23,45,14,84,22,32,3,99,33,87,63,96,77,35 - true
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
+67,0,72,94,94,45,83,99,87,79,74,96,62,43,15,42,81,36,43,40,49,96,0,44,84,14,36,77,6,67,30,90,25,69,15,83,96,42,6,71,35,7,23 * 67
+
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+kiwi * 82,47,28,83,15,98,16,58,82,24,14,37,87,83,3,21,28,2,82,77,95,95,87,78,41,42,62,16,77,47,38,35,11,57,74,98,66,58,65,2,63,32,35,83,27,44,70,42,96,71,38,58,81,20,60,19,81,73,26,5,56,34,75,18,78,13,1,16,58,65,12,7,41,85,30,61,19,13,51,85,26,11,45,72,67,96,88,3,75,51,83
+const removeDuplicates = array => Array.from(new Set(array));
+const getRandomSubset = (array, size) => array.slice(0, size);
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
+grape - false
+const isEven = num => num % 2 === 0;
