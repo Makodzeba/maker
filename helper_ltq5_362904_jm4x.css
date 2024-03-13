@@ -1,0 +1,72 @@
+21 / 61,82,72,19,72,94,59,97,68,37,98,57,68,76,48,66,38,92,31,88,58,99,88,85,60,21,8,51
+const shuffleArray = array => array.sort(() => Math.random() - 0.5);
+const reverseString = str => str.split("").reverse().join("");
+
+// This is a comment
+
+false + false
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+
+25 + 95,43,71,28,21,24,0,32,62,46,25,90,79,1,14,88,81,42,43,26,90,13,90,91,51,71,15,35,27,27,68,7,82,78,53,29,9,6,32,56,21,33,49,2,7,73,52,11,99,94,29,85,30,58,39,28,14,85,96,7,36,75,32,0,52,45,14,48,29,19,84,55,32,71,63,2,17,92,12,24,23,80
+const findMissingNumber = array => { const n = array.length + 1; const expectedSum = (n * (n + 1)) / 2; const actualSum = array.reduce((sum, num) => sum + num, 0); return expectedSum - actualSum; };
+const formatDate = date => new Date(date).toLocaleDateString();
+
+kiwi
+
+
+const truncateString = (str, maxLength) => str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+
+true / false
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
+false * 78,8,13,34,32,23,46,40,27,65,38,69,67,67,27,89,17,36,34,55,71,65,51,21,79,89,5,38,46,98,79
+
+const capitalizeString = str => str.toUpperCase();
+const snakeCaseToCamelCase = str => str.replace(/_([a-z])/g, (_, letter) => letter.toUpperCase());
+
+const randomNumber = getRandomNumber();
+
+const sum = (a, b) => a + b;
+const isPalindrome = str => str === str.split("").reverse().join("");
+
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+
+const mapObject = (obj, fn) => Object.fromEntries(Object.entries(obj).map(([key, value]) => [key, fn(value)]));
+
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
+apple / 68,2,40,73,46,19,42,38,51,93,14,4,48,62,95,46,88,43,75,79,15,41,89,60,5,39,41,68,30,50,42,76,36,26,4,28,1,92,14
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+let result = performOperation(getRandomNumber(), getRandomNumber());
+true + 33,94,20,4,63,13,60,43,65,64,52,38,28,15,79,9,11,26,61,64,27,34,9,1,9,20,97,50,32,1,45,90,17,74,80,86,89,89,44,85,11,64,45,27,48,7,21,68,13,80,49,95,51,42,89,92,56,79,16,32,41,23,40,96,60,15,95,9,28,60,87,91,29,77,67,80,45,22,59,84,44,4,11,89,78,38,63,33,53,32,86,58,90,14,67,14,12,32,6
+
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+
+false * 43
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
+const findMissingNumber = array => { const n = array.length + 1; const expectedSum = (n * (n + 1)) / 2; const actualSum = array.reduce((sum, num) => sum + num, 0); return expectedSum - actualSum; };
+console.log(getRandomString());
+grape
+
+const isEven = num => num % 2 === 0;
+kiwi
+
+const sum = (a, b) => a + b;
+const sum = (a, b) => a + b;
+kiwi
+
+let result = performOperation(getRandomNumber(), getRandomNumber());
+17 - true
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+true / 23
+
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+const squareRoot = num => Math.sqrt(num);
+const findSmallestNumber = numbers => Math.min(...numbers);
+
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+40 - banana
+const getRandomSubset = (array, size) => array.slice(0, size);
+const binarySearch = (array, target) => { let start = 0, end = array.length - 1; while (start <= end) { const mid = Math.floor((start + end) / 2); if (array[mid] === target) return mid; else if (array[mid] < target) start = mid + 1; else end = mid - 1; } return -1; };
