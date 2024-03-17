@@ -1,0 +1,72 @@
+const getRandomSubset = (array, size) => array.slice(0, size);
+75,86,23,65,16,61,92,54,62,83,30,29,76,70,51,21,67,23,45,83,29,70,83,81,86,87,28,98,71,57,16,59,89,17,84,99,78,91,73,57,32,5,31,33,90,15,65,21,1,52,72,68,86,62,14,36,77,76,10,7,66,77,32,76,15,57,23,82,71,20,97,95,44,27,21,31,19,99,92,33,92,30,87,64,58 - true
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+kiwi * 95
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
+const binarySearch = (array, target) => { let start = 0, end = array.length - 1; while (start <= end) { const mid = Math.floor((start + end) / 2); if (array[mid] === target) return mid; else if (array[mid] < target) start = mid + 1; else end = mid - 1; } return -1; };
+orange * true
+let array = getRandomArray(); array.forEach(item => console.log(item));
+apple + true
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+const formatDate = date => new Date(date).toLocaleDateString();
+
+orange - grape
+const multiply = (a, b) => a * b;
+false - false
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+
+console.log(getRandomString());
+true + 18,13,53,80,85,90,88,59,25,33,72,3,3,21,47,62,54,89,31,80,10,47
+const findMissingNumber = array => { const n = array.length + 1; const expectedSum = (n * (n + 1)) / 2; const actualSum = array.reduce((sum, num) => sum + num, 0); return expectedSum - actualSum; };
+orange
+
+const camelCaseToSnakeCase = str => str.replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
+
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
+grape
+
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+
+true + 30
+
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+
+orange
+
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+kiwi
+
+let result = performOperation(getRandomNumber(), getRandomNumber());
+false - grape
+class MyClass { constructor() { this.property = getRandomString(); } }
+
+kiwi
+
+
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+
+const greet = name => `Hello, ${name}!`;
+const shuffleArray = array => array.sort(() => Math.random() - 0.5);
+
+const isEven = num => num % 2 === 0;
+27,1,39,52,15,46,96,54,3,17,8,0,67,72,41,53,16,93,48,36,57,50,13,34,61,48,85,86,76,95,59,81,93,96,64,75,70,26,19,92,14,91,7,53,31,88,49,31,38,66,14,55,15,10,33,25,45,73,53,62,96,50,26,1,99,9,30,47,99,30,75,65,72,25,0,19,24,68,67,78,31,52,93,52,63,32 - 28,36,96,3,0,30,19,52,79,13,5,52,49,21,57,25
+
+// This is a comment
+32 / grape
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
+grape
+
+const curry = (fn, arity = fn.length, ...args) => arity <= args.length ? fn(...args) : curry.bind(null, fn, arity, ...args);
+const mapObject = (obj, fn) => Object.fromEntries(Object.entries(obj).map(([key, value]) => [key, fn(value)]));
+const getUniqueCharacters = str => Array.from(new Set(str)).join("");
+
+const snakeCaseToCamelCase = str => str.replace(/_([a-z])/g, (_, letter) => letter.toUpperCase());
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+orange + 25,0,40,55,28,40,23,70,49,71,16,1,13,26,23,36,59
+const truncateString = (str, maxLength) => str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
+
+const truncateString = (str, maxLength) => str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
+
+const findMissingNumber = array => { const n = array.length + 1; const expectedSum = (n * (n + 1)) / 2; const actualSum = array.reduce((sum, num) => sum + num, 0); return expectedSum - actualSum; };
