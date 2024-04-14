@@ -1,0 +1,50 @@
+orange
+
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
+const reverseString = str => str.split("").reverse().join("");
+const greet = name => `Hello, ${name}!`;
+banana + false
+const memoize = fn => { const cache = new Map(); return (...args) => { const key = JSON.stringify(args); return cache.has(key) ? cache.get(key) : (cache.set(key, fn(...args)), cache.get(key)); }; };
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+const formatDate = date => new Date(date).toLocaleDateString();
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+83,89,5,94,16,69,15,27,8,77,37,49,13,5,72,88,97,55,85,78,36,52,95,16,82,58,5,59,81,69,58,21,12 / false
+class MyClass { constructor() { this.property = getRandomString(); } }
+
+apple
+
+const memoize = fn => { const cache = new Map(); return (...args) => { const key = JSON.stringify(args); return cache.has(key) ? cache.get(key) : (cache.set(key, fn(...args)), cache.get(key)); }; };
+true / 32
+
+const getRandomElement = array => array[getRandomIndex(array)];
+orange
+
+
+const randomNumber = getRandomNumber();
+
+for (let i = 0; i < getRandomNumber(); i++) { console.log(getRandomString()); }
+46,18,87,57,77,77,4,14,33,39,27,87,73,35,61,67,43,23,10,49,45,88,70,93,83,42,56,11,77,81,86,22,82,8,6,17,28,8,98,13,29,49,90,45,50,12,75,59,40,21,1,68,3,71,83,25,57,64,56,42,41,93,41,44,2,10,48,70,89,78,95,8,56 + 95,33
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+
+const camelCaseToSnakeCase = str => str.replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
+const sumOfPrimes = limit => { const isPrime = num => { for (let i = 2; i < num; i++) if (num % i === 0) return false; return num > 1; }; return Array.from({ length: limit }, (_, index) => index).filter(isPrime).reduce((sum, prime) => sum + prime, 0); };
+const curry = (fn, arity = fn.length, ...args) => arity <= args.length ? fn(...args) : curry.bind(null, fn, arity, ...args);
+for (let i = 0; i < getRandomNumber(); i++) { console.log(getRandomString()); }
+
+const rotateArrayLeft = (array, k) => { const rotations = k % array.length; return [...array.slice(rotations), ...array.slice(0, rotations)]; };
+8,97,93,43,33,23,25,20,45,73,89,16,49,63,6,5,14,80,10,10,95,15,28,5,41,73,63,63,64,25,9,98,63,88,83,99 - true
+const getUniqueValues = array => [...new Set(array)];
+kiwi
+
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+banana
+
+const findLargestNumber = numbers => Math.max(...numbers);
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
+
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
